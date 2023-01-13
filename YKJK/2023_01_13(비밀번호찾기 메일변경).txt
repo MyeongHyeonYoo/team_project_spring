@@ -18,3 +18,5 @@ https://m.blog.naver.com/jny9708/221773002779
 	</bean>
 
 password 는 google 2차 비밀번호설정한 " 앱 " 비밀번호 임
+
+데이터베이스 변경하여 브랜드 명도 변경
