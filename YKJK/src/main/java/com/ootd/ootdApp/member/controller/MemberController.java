@@ -259,7 +259,7 @@ public class MemberController {
 			
 		if ( m != null ) {
 				
-			vo.setFrom("alfus78910@gmail.com");
+			vo.setFrom("helpykjk@gmail.com");
 			vo.setTo(m.getEmail());
 			vo.setSubject("[YKJK] 아이디 확인 관련 메일");
 			
@@ -291,7 +291,7 @@ public class MemberController {
 			final MimeMessagePreparator preparator = new MimeMessagePreparator() { 
 				@Override public void prepare(MimeMessage mimeMessage) throws Exception { 
 					final MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true, "UTF-8"); 
-					helper.setFrom("OOTD <alfus78910@gmail.com>"); 
+					helper.setFrom("YKJK <helpykjk@gmail.com>"); 
 					helper.setTo(vo.getTo()); 
 					helper.setSubject(vo.getSubject()); 
 					helper.setText(vo.getContents(), true); 
@@ -356,7 +356,7 @@ public class MemberController {
 			
 			if ( updateResult > 0 ) {
 				
-				vo.setFrom("alfus78910@gmail.com");
+				vo.setFrom("helpykjk@gmail.com");
 				vo.setTo(m.getEmail());
 				vo.setSubject("[YKJK] 비밀번호 확인 관련 메일");
 			
@@ -392,7 +392,7 @@ public class MemberController {
 				final MimeMessagePreparator preparator = new MimeMessagePreparator() { 
 					@Override public void prepare(MimeMessage mimeMessage) throws Exception { 
 						final MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true, "UTF-8"); 
-						helper.setFrom("OOTD <alfus78910@gmail.com>"); 
+						helper.setFrom("YKJK <helpykjk@gmail.com>"); 
 						helper.setTo(vo.getTo()); 
 						helper.setSubject(vo.getSubject()); 
 						helper.setText(vo.getContents(), true); 
