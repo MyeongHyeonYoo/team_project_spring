@@ -12,7 +12,7 @@
 			<!-- HEADER 로고 클릭 시 index화면으로 이동 -->
 			<div class="header_logo">
 				<img
-					src="${pageContext.request.contextPath }/resources/images/headerlogo.png"
+					src="${pageContext.request.contextPath }/resources/images/logo_header.png"
 					id="logo" />
 			</div>
 
@@ -112,8 +112,8 @@
 				$('.myPageInfo').css('color', '#bbb');
 				$('.bx-wrapper').css('background-color', 'black');
 				
-				icon.src = "${pageContext.request.contextPath }/resources/images/headerdarklogo.png";
-				icon_footer.src = "${pageContext.request.contextPath }/resources/images/footerdarklogo.jpeg";
+				icon.src = "${pageContext.request.contextPath }/resources/images/logo_dark.png";
+				/* icon_footer.src = "${pageContext.request.contextPath }/resources/images/footerdarklogo.jpeg"; */
 				
 				$('.fa-moon').hide();
 				$('.fa-sun').css('visibility', 'visible');
@@ -133,8 +133,8 @@
 				$('.myPageInfo').css('color', 'black');
 				$('.bx-wrapper').css('background-color', 'white');
 
-				icon.src = "${pageContext.request.contextPath }/resources/images/headerlogo.png";
-				icon_footer.src = "${pageContext.request.contextPath }/resources/images/footerlogo.png";
+				icon.src = "${pageContext.request.contextPath }/resources/images/logo_header.png";
+				/* icon_footer.src = "${pageContext.request.contextPath }/resources/images/footerlogo.png"; */
 				
 				$('.fa-sun').css('visibility', 'hidden');
 				$('.fa-moon').show();
@@ -172,8 +172,8 @@
         	$('.search_input').css('background-color','black');
 			$('.search_input').css('color', 'white');
 
-			icon.src = "${pageContext.request.contextPath }/resources/images/headerdarklogo.png";
-			icon_footer.src = "${pageContext.request.contextPath }/resources/images/footerdarklogo.jpeg";
+			icon.src = "${pageContext.request.contextPath }/resources/images/logo_dark.png";
+			/* icon_footer.src = "${pageContext.request.contextPath }/resources/images/footerdarklogo.jpeg"; */
 			
 			$('.fa-moon').hide();
 			$('.fa-sun').css('visibility', 'visible');
@@ -183,8 +183,8 @@
         	$('.search_input').css('background-color','white');
 			$('.search_input').css('color', '#bbb');
 
-			icon.src = "${pageContext.request.contextPath }/resources/images/headerlogo.png";
-			icon_footer.src = "${pageContext.request.contextPath }/resources/images/footerlogo.png";
+			icon.src = "${pageContext.request.contextPath }/resources/images/logo_header.png";
+			/* icon_footer.src = "${pageContext.request.contextPath }/resources/images/footerlogo.png"; */
 			$('.fa-sun').css('visibility', 'hidden');
 			$('.fa-moon').show();
         	

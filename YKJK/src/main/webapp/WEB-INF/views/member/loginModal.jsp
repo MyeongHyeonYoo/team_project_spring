@@ -284,7 +284,7 @@
 	      								if ( data == id ) {
 	      									location.href = '${pageContext.request.contextPath}/member/snsLogin.do?member_id='+id;
 	      								} else {
-	      									alert("이미 해당 이메일로 가입되어 있는 계정이 존재합니다. 아이디 찾기를 이용해 내일의 옷 계정으로 로그인해주세요.");
+	      									alert("이미 해당 이메일로 가입되어 있는 계정이 존재합니다. 아이디 찾기를 이용해 YKJK 계정으로 로그인해주세요.");
 	      								}
 	      					
 	      				}
@@ -367,7 +367,7 @@
        						location.href = '${pageContext.request.contextPath}/member/snsLogin.do?member_id='+id;
        						
        					} else {
-       						alert("이미 해당 이메일로 가입되어 있는 계정이 존재합니다. 아이디 찾기를 이용해 내일의 옷 계정으로 로그인해주세요.");
+       						alert("이미 해당 이메일로 가입되어 있는 계정이 존재합니다. 아이디 찾기를 이용해 YKJK 계정으로 로그인해주세요.");
        					}
        					
        				}

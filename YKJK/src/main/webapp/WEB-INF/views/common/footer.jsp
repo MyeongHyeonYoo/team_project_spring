@@ -9,30 +9,29 @@
 
 	<footer class="footer">
         <div class="wrapper">
-            <img src="${pageContext.request.contextPath }/resources/images/footerlogo.png" alt="풋터이미지" id="logo_footer">
         
             <div class="footer_contents">
 
                 <div class="content">
                     <div class="title">
-                        <h3>OOTD</h3>
+                        <h3>YKJK</h3>
                     </div>
                     
                     <div class="company">
                         <p>
-                            주식회사 : OOTD 서울특별시 강남구 테헤란로14길 6 남도빌딩 <br>
-                            대표 : 박건형 <br>
-                            사업자 등록번호 : 822-14-22931 <br>
-                            통신판매업신고 : 2021-서울강남-0023 <br>
-                            help@ootd.com <br>
-                            copyright &copy; 2021 OOTD Inc
+                            YKJK 경기도 안산시 상록구 광덕1로 375 강우프라자 <br>
+                            대표 : 곽해준 <br>
+                            사업자 등록번호 : 123-45-67890 <br>
+                            통신판매업신고 : 2023-경기안산-0113 <br>
+                            help@ykjk.com <br>
+                            copyright &copy; 2023 YKJK Inc.
                         </p>
                     </div>
                 
 
                     <div class="customer_center">
                         <h3>CUSTOMER CENTER</h3>
-                        <h3>010-4444-5555</h3>
+                        <h3>010-1234-5678</h3>
                     </div>
 
                     <div class="officeHour">

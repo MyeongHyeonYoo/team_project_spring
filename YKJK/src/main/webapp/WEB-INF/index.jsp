@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>내일의 옷</title>
+<title>YKJK</title>
 <c:import url="views/common/styler.jsp"/>
 </head>
 <body>

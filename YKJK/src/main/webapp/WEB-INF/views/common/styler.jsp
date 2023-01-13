@@ -9,5 +9,5 @@
 
 <script
 	src="${pageContext.request.contextPath }/resources/js/jquery-3.6.0.min.js"></script>
-<link rel="shortcut icon" href="/ootdApp/resources/icon/favicon_.ico">
-<link rel="icon" href="/ootdApp/resources/icon/favicon_.ico">
+<link rel="shortcut icon" href="/ykjkApp/resources/icon/ykjk-favi.ico">
+<link rel="icon" href="/ykjkApp/resources/icon/ykjk-favi.ico">

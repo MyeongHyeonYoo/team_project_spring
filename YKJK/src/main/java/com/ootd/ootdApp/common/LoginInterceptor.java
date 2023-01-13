@@ -1,4 +1,4 @@
-//package com.ootd.ootdApp.common;
+//package com.ootd.ykjkApp.common;
 //
 //import javax.servlet.http.HttpServletRequest;
 //import javax.servlet.http.HttpServletResponse;

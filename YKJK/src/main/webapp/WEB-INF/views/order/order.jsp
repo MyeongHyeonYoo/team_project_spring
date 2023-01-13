@@ -214,7 +214,7 @@
          	<div class="detailContent">
 	            <ul>
 	               <li class="lifont">실제 결제 금액에 따라 적립포인트는 변경될 수 있습니다.</li>
-	               <li class="lifont">내일의 옷은 기본적으로 전 상품 무료 배송입니다.</li>
+	               <li class="lifont">YKJK는 기본적으로 전 상품 무료 배송입니다.</li>
 	               <li class="lifont">2개 이상 브랜드를 주문하신 경우, 각각 개별 배송됩니다.</li>
 	               <li class="lifont">오프라인 매장과 동시 판매되고 있어 결제완료/입고확정 이후에도 품절이나 발송지연이 있을 수 있습니다.</li>
 	               <li class="lifont">품절 발생 시 문자로 결제취소 또는 재결제에 대해 추가 안내 드리고, 품절취소 고객보상 기준에 따라 보상해 드립니다.</li>

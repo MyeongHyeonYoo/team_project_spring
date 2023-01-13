@@ -261,16 +261,16 @@ public class MemberController {
 				
 			vo.setFrom("alfus78910@gmail.com");
 			vo.setTo(m.getEmail());
-			vo.setSubject("[내일의 옷] 아이디 확인 관련 메일");
+			vo.setSubject("[YKJK] 아이디 확인 관련 메일");
 			
 			if ( m.getLogin_type() == 2 ) {
 				
 				vo.setContents(
 						"<html><body><div style=\"width: 400px; height: 300px; padding: 50px; background: black; text-align: center; color: white;\">"
-						+ "<h2>내일의 옷에서 알려드립니다.</h2><br>"
+						+ "<h2>YKJK에서 알려드립니다.</h2><br>"
 						+ "<p>개인 회원이신 " + m.getMember_name() + "님의 아이디는 <p style='font-weight:bolder;'>" 
 						+ m.getMember_id() + "</p> 입니다.<br>"
-						+ "확인 후 내일의 옷 홈페이지에서 로그인해주세요."
+						+ "확인 후 YKJK 홈페이지에서 로그인해주세요."
 						+ "</p></div>"
 						+ "</body></html>"
 					);
@@ -279,10 +279,10 @@ public class MemberController {
 				
 				vo.setContents(
 						"<html><body><div style=\"width: 400px; height: 300px; padding: 50px; background: black; text-align: center; color: white;\">"
-						+ "<h2>내일의 옷에서 알려드립니다.</h2><br>"
+						+ "<h2>YKJK에서 알려드립니다.</h2><br>"
 						+ "<p>브랜드 회원이신 " + m.getBrand_name() + "님의 아이디는 <p style='font-weight:bolder;'>" 
 						+ m.getMember_id() + "</p> 입니다.<br>"
-						+ "확인 후 내일의 옷 홈페이지에서 로그인해주세요."
+						+ "확인 후 YKJK 홈페이지에서 로그인해주세요."
 						+ "</p></div>"
 						+ "</body></html>"
 					);
@@ -358,17 +358,17 @@ public class MemberController {
 				
 				vo.setFrom("alfus78910@gmail.com");
 				vo.setTo(m.getEmail());
-				vo.setSubject("[내일의 옷] 비밀번호 확인 관련 메일");
+				vo.setSubject("[YKJK] 비밀번호 확인 관련 메일");
 			
 				if ( m.getLogin_type() == 2 ) {
 				
 					vo.setContents(
 							"<html><body><div style=\"width: 400px; height: 300px; padding: 50px; background: black; text-align: center; color: white;\">"
-							+ "<h2>내일의 옷에서 알려드립니다.</h2><br>"
+							+ "<h2>YKJK에서 알려드립니다.</h2><br>"
 							+ "<p>개인 회원이신 " + m.getMember_name() 
 							+ "님의 임시 비밀번호는 <p style='font-weight:bolder; font-size:larger;'>" 
 							+ newPass + "</p> 입니다.<br>"
-							+ "확인 후 내일의 옷 홈페이지에서 로그인해주세요.<br>"
+							+ "확인 후 YKJK 홈페이지에서 로그인해주세요.<br>"
 							+ "로그인 후에는 마이페이지 > 회원정보 에서 반드시 비밀번호를 재설정하세요."
 							+ "</p></div>"
 							+ "</body></html>"
@@ -378,11 +378,11 @@ public class MemberController {
 				
 					vo.setContents(
 						"<html><body><div style=\"width: 400px; height: 300px; padding: 50px; background: black; text-align: center; color: white;\">"
-						+ "<h2>내일의 옷에서 알려드립니다.</h2><br>"
+						+ "<h2>YKJK에서 알려드립니다.</h2><br>"
 						+ "<p>브랜드 회원이신 " + m.getBrand_name() 
 						+ "님의 임시 비밀번호는 <p style='font-weight:bolder; font-size:larger;'>" 
 						+ newPass + "</p> 입니다.<br>"
-						+ "확인 후 내일의 옷 홈페이지에서 로그인해주세요."
+						+ "확인 후 YKJK 홈페이지에서 로그인해주세요."
 						+ "로그인 후에는 마이페이지 > 회원정보 에서 반드시 비밀번호를 재설정하세요."
 						+ "</p></div>"
 						+ "</body></html>"
