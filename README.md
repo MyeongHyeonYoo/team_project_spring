@@ -31,6 +31,21 @@
 
 ◾ **의류 온라인 쇼핑몰** `Version_0` 추가
 
+---
+
+#### [ver_1.0]
+
+◾ **의류 온라인 쇼핑몰** `Version_1.0` 추가
+
+- 데이터베이스 수정
+    - YKJK 변경
+    - 이메일 변경
+- Front-End
+    - Logo 변경(YKJK - Header, Footer)
+    - Header Navigation bar `slide` 추가 ▶ 연동 필요
+
+---
+
 
 ###### `Notion` : https://www.notion.so/Team-Project3-Spring-5b7960e2e0f44f80a0df241612c2a339
 
