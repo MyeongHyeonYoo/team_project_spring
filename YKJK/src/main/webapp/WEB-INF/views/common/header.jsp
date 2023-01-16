@@ -35,8 +35,6 @@
 					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=제이현&pType=1&categoryNo=0&sortVal=">제이현</a></li>
 					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=YK&pType=1&categoryNo=0&sortVal=">YK</a></li>
 					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=JK&pType=1&categoryNo=0&sortVal=">JK</a></li>
-					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=다살래?&pType=1&categoryNo=0&sortVal=">다살래?</a></li>
- 					<!-- <li class="slide"><a href="/ykjkApp/product/productList.do?bName=DanielShop&pType=1&categoryNo=0&sortVal=">DanielShop</a></li> -->
 					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=YKJK&pType=1&categoryNo=0&sortVal=">YKJK</a></li>
 				</ul>
 				<ul class="menu">

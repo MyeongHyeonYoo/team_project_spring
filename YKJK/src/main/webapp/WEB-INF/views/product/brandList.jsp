@@ -197,7 +197,7 @@
 				}   */
 				
 			});
-	 		
+	 		//ㅁㅁㅁㅁ
 	 		
 	 		// 브랜드 클릭시 id 값을 가지고 selectList 로 이동 
 	 		$('#brandList').children('.brand').on("click",function(){
