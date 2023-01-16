@@ -48,11 +48,11 @@
                         <div class="dropArea">
                             <ul class="hiddenArea" id="categoryList">
                                 <li class="prod cate" id="0"><span>All</span></li>
-                                <li class="prod cate" id="1"><span>Top</span></li>
-                                <li class="prod cate" id="2"><span>bottom</span></li>
-                                <li class="prod cate" id="3"><span>Shoes</span></li>
-                                <li class="prod cate" id="4"><span>Hat</span></li>
-                                <li class="prod cate" id="5"><span>Bag</span></li>
+                                <li class="prod cate" id="1"><span>TOP</span></li>
+                                <li class="prod cate" id="2"><span>BOTTOM</span></li>
+                                <li class="prod cate" id="3"><span>SHOES</span></li>
+                                <li class="prod cate" id="4"><span>HAT</span></li>
+                                <li class="prod cate" id="5"><span>BAG</span></li>
                             </ul>
                         </div> 
                     </li>

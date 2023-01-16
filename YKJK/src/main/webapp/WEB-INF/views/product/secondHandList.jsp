@@ -48,12 +48,12 @@
                         <!-- 보여줄 영역 -->
                         <div class="dropArea">
                             <ul class="hiddenArea" id="categoryList">
-                                <li class="prod cate" id="0">All</li>
-                                <li class="prod cate" id="1">Top</li>
-                                <li class="prod cate" id="2">bottom</li>
-                                <li class="prod cate" id="3">Shoes</li>
-                                <li class="prod cate" id="4">Hat</li>
-                                <li class="prod cate" id="5">Bag</li>
+                                <li class="prod cate" id="0">ALL</li>
+                                <li class="prod cate" id="1">TOP</li>
+                                <li class="prod cate" id="2">BOTTOM</li>
+                                <li class="prod cate" id="3">SHOES</li>
+                                <li class="prod cate" id="4">HAT</li>
+                                <li class="prod cate" id="5">BAG</li>
                             </ul>
                         </div> 
                     </li>

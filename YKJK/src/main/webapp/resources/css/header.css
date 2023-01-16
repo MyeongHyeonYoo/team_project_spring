@@ -146,7 +146,7 @@ a:active {
 	border-radius: 10px;
 	color: black;
 }
-
+/* 
 .header_menu>div>h3:hover {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5), 
 	2px 2px 1px rgba(0, 0, 0, .5), 
@@ -154,29 +154,29 @@ a:active {
 	-1px -1px 2px rgba(0, 0, 0, .2),
 	-2px -2px 3px rgba(0, 0, 0, .5);
 }
-
+ */
 
 
 .header_menu>div>h3:after {
 	display: block;
 	content: '';
-	padding-top: 2px;
-	border-bottom: 1px solid #999;
+	padding-top: 4px;
+	border-bottom: 2px solid #999;
 	transform: scaleX(0);
 	transition: transform 250ms ease-in-out;
 }
 
 .header_menu>div>h3:hover:after {
 	transform: scaleX(1);
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+	/* box-shadow: 1px 1px 2px rgba(0, 0, 0, .1); */
 }
 
 /* 네비게이션 슬라이드 추가 */
 #navi_menu {
 	width: 600px;
-	height: 300px;
-	margin: 50px 0 0 -1px;
-	border-radius: 10px;
+	height: 420px;
+	background:white;
+	display:block;
 }
 
 .menu {
@@ -193,20 +193,44 @@ a:active {
 }
 
 .menu .slide {
-	width: 132px;
+	display:block;
+	width: 130px;
 	line-height: 50px;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	cursor: pointer;
-	border-radius: 5px;
-	letter-spacing: 2px;
+	/* border-radius: 5px; */
+	letter-spacing: 3px;
 	font-weight: bold;
-	background-color: rgba(240, 240, 240, 0.5);
+/* 	background-color: rgba(240, 240, 240, 0.5); */
 }
 
 .menu .slide:hover {
-	background-color: rgba(0, 0, 0, 0.8);
+	/* background-color: rgba(0, 0, 0, 0.8); */
+	display:block;
 	font-weight: bold;
-	color: white;
+	color: black;
+	transition: transform 250ms ease-in-out;
+}
+
+.menu .slide:after { /* after → 가상요소임 */
+	display: block;
+	content: '';
+	border-bottom: 2px solid #999;
+	transition: all 250ms ease-in-out;
+	width: 0;
+}
+
+.menu .slide:hover:after { 
+	transition: all 250ms ease-in-out;
+	width : 100%;
+}
+
+.slide a {
+	color : black;
+}
+.slide a:hover {
+	color : black;
+	text-decoration:none;
 }
 
 .header_option {
@@ -253,6 +277,17 @@ a:active {
 	visibility: hidden;
 }
 
+html.dark .header_menu>div>h3 {
+	letter-spacing: 3px;
+	opacity: 0.8;
+	border-radius: 10px;
+	color: white;
+}
+
+html.dark .cate {
+	color : white;
+}
+
 html.dark .filter-text:hover {
 	cursor: pointer;
 	color: white;
@@ -267,11 +302,11 @@ html.dark hr {
 	background: #bbb;
 }
 
-#brand, #Choose, #second_Hand, .nav_menu li, #logo:hover {
+#brand, #Choose, #used, .nav_menu li, #logo:hover {
 	cursor: pointer !important;
 }
 
-#brand, #Choose, #second_Hand {
+#brand, #Choose, #used {
 	font-size: 18px;
 	padding: 10px 25px 10px 25px;
 	margin: 20px;
