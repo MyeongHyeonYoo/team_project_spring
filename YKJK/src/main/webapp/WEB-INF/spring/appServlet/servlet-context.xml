@@ -30,7 +30,7 @@
 		<!--   max 파일용량은 10MB이다.   -->
 	</beans:bean>
 	
-	<context:component-scan base-package="com.ootd.ootdApp" />
+	<context:component-scan base-package="com.ykjk.ykjkApp" />
 	
 	<!-- schema setting -->
 	<!-- <beans:beans xmlns="http://www.springframework.org/schema/mvc"

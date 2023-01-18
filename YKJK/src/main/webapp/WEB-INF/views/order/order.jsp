@@ -435,7 +435,7 @@ function calcPrice(){
   	    pg : 'inicis', // version 1.1.0부터 지원.
   	    pay_method : pay_method,
   	    merchant_uid : 'merchant_' + new Date().getTime(),
-  	    name : 'OOTD',
+  	    name : 'YKJK',
   	    amount :100,
   	    buyer_email : email+"@"+domainName,
   	    buyer_name : receiver_name,

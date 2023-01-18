@@ -130,7 +130,6 @@ a:active {
 	width: 600px;
 	height: 150px;
 	position: sticky;
-	top: 100px;
 	z-index: 5;
 }
 
@@ -145,6 +144,7 @@ a:active {
 	opacity: 0.8;
 	border-radius: 10px;
 	color: black;
+	top : 150px;
 }
 /* 
 .header_menu>div>h3:hover {
@@ -174,9 +174,10 @@ a:active {
 /* 네비게이션 슬라이드 추가 */
 #navi_menu {
 	width: 600px;
-	height: 420px;
+	height: 370px;
 	background:white;
 	display:block;
+	top : 150px;
 }
 
 .menu {
