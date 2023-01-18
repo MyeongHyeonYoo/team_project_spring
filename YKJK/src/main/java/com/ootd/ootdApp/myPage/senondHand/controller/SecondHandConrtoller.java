@@ -20,12 +20,12 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import com.ootd.ootdApp.common.Utils;
 import com.ootd.ootdApp.member.model.vo.Member;
-import com.ootd.ootdApp.myPage.senondHand.model.service.SecondHandService;
 import com.ootd.ootdApp.myPage.brand.model.vo.O_Order;
-import com.ootd.ootdApp.product.model.vo.Product;
+import com.ootd.ootdApp.myPage.senondHand.model.service.SecondHandService;
 import com.ootd.ootdApp.myPage.senondHand.model.vo.Review_ProductInfo;
 import com.ootd.ootdApp.myPage.senondHand.model.vo.myPageOrderList;
 import com.ootd.ootdApp.product.model.vo.Attachment;
+import com.ootd.ootdApp.product.model.vo.Product;
 import com.ootd.ootdApp.product.model.vo.Review;
 
 @SessionAttributes({ "member" })

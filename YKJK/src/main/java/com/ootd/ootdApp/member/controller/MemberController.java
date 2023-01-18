@@ -46,12 +46,12 @@ public class MemberController {
 	@Autowired
 	BCryptPasswordEncoder bcrypt;
 	
-	// 모달에서 마이페이지로 이동
+	// 모달(팝업창)에서 마이페이지로 이동
 	@RequestMapping("/member/goMyPage.do")
 	public String goMyPage(HttpServletRequest req) {
 		
 		HttpSession session = req.getSession();
-		Member member = (Member) session.getAttribute("member");
+		Member member = (Member) session.getAttribute("member"); //속성을 가져온다 getAttribute , member 로 강제타입변환
 		
 		if ( member.getLogin_type() == 1) return "myPage/myPage_Brand_Info";
 		else return "myPage/myPage_Info";
@@ -115,36 +115,36 @@ public class MemberController {
 		return "common/msg";
 	}
 	
+	//개인가입
 	@RequestMapping("/member/memberJoin.do")
 	public String memberJoin() {
 		
 		return "member/memberJoin";
 	}
 	
+	// 업체가입
 	@RequestMapping("/member/brandJoin.do")
 	public String brandJoin() {
 		
 		return "member/brandJoin";
 	}
 	
-	
+	//약관동의
 	@RequestMapping("/member/joinAccept.do")
 	public String memberJoinAccept() {
 		
 		return "member/joinAccept";
 	}
 	
+	
+	//회원가입 완료 페이지
 	@RequestMapping("member/memberJoinEnd.do")
-	public String memberJoinEnd(
-				SessionStatus status,
-				Member member,
-				Model model
-			) {
+	public String memberJoinEnd( SessionStatus status, Member member, Model model ) {
 		
 		System.out.println("joinEnd 들어온 정보 : " + member);
 		
 		String pass1 = member.getMember_pw();
-		String pass2 = bcrypt.encode(pass1);
+		String pass2 = bcrypt.encode(pass1); //암호화
 		
 		member.setMember_pw(pass2);
 		
@@ -433,9 +433,9 @@ public class MemberController {
 	// 랜덤한 임시 비밀번호 생성 메소드
 	public String randomCode() {
 		
-		int leftLimit = 48; // numeral '0'
-		int rightLimit = 122; // letter 'z'
-		int targetStringLength = 8;
+		int leftLimit = 48; // numeral '0'  0~9 까지
+		int rightLimit = 122; // letter 'z'  a~ z 까지
+		int targetStringLength = 8; // 비밀번호 8글자
 		Random random = new Random();
 
 		String generatedString = random.ints(leftLimit,rightLimit + 1)
@@ -449,6 +449,7 @@ public class MemberController {
 		return generatedString;
 	}
 
+	// SNS 로그인 카카오톡
 	@RequestMapping(value={"member/emailCheck.do", "*/member/emailCheck.do"})
 	@ResponseBody
 	public String emailCheck(@RequestParam String email) {

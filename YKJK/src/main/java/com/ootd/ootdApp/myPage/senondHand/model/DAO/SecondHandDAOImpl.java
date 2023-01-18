@@ -10,10 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.ootd.ootdApp.member.model.vo.Member;
-import com.ootd.ootdApp.product.model.vo.Product;
 import com.ootd.ootdApp.myPage.senondHand.model.vo.Review_ProductInfo;
 import com.ootd.ootdApp.myPage.senondHand.model.vo.myPageOrderList;
 import com.ootd.ootdApp.product.model.vo.Attachment;
+import com.ootd.ootdApp.product.model.vo.Product;
 import com.ootd.ootdApp.product.model.vo.Review;
 
 @Repository
