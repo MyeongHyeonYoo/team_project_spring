@@ -64,9 +64,9 @@ public class BrandController {
 		  Member result1 = memberService.selectOneMember(member.getMember_id());
 
 		  // 현재 입력한 비밀번호와 db에서 꺼내온 비밀번호가 일치한다면
-		  if(bcrypt.matches(password, result1.getMember_pw())) { 
+		  if(bcrypt.matches(password, result1.getMember_pw())) { // 입력받은 비밀번호와 현재 비밀번호가 일치하면 
 		  
-			  String encryptPassword = bcrypt.encode(new_password);
+			  String encryptPassword = bcrypt.encode(new_password); // 새로 입력받은 비밀번호
 		
 			  int member_no = member.getMember_no(); 
 		  
@@ -77,7 +77,7 @@ public class BrandController {
 		  
 			  int result2 = brandService.updateBrandInfo(tempMember);
 		  
-				  if( result2 > 0) {
+				  if( result2 > 0) { // int 로 선언하여 0이 defult
 					  System.out.println("비밀번호 수정 완료!"); 
 					  model.addAttribute("member", member);
 					  return "myPage/myPage_Brand_Info";
@@ -237,6 +237,7 @@ public class BrandController {
 		String msg = "";
 
 		if (result > 0) {
+			
 			msg = "삭제 완료!";
 			
 			for(Attachment a : delList) {

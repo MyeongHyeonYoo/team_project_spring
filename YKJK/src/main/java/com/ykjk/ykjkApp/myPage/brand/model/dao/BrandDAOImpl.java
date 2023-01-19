@@ -25,7 +25,7 @@ public class BrandDAOImpl implements BrandDAO {
 
 	@Override
 	public List<Map<String, String>> selectBrandOrderList(int cPage, int numPerPage, String brand_name) {
-		System.out.println("order :: DAO 왔나요");
+		System.out.println("order :: DAO 왔어요");
 		rows = new RowBounds((cPage - 1) * numPerPage, numPerPage);
 		
 		//List<MypageOrderList> mypage = sqlSession.selectList("orderList-mapper.selectBrandOrderList", brand_name);
@@ -36,7 +36,7 @@ public class BrandDAOImpl implements BrandDAO {
 
 	@Override
 	public List<Map<String, String>> selectBrandProductList(int cPage, int numPerPage, int member_no) {
-		System.out.println("product :: DAO 왔나요");
+		System.out.println("product :: DAO 왔어요");
 		rows = new RowBounds((cPage - 1) * numPerPage, numPerPage);
 		
 		return sqlSession.selectList("productList-mapper.selectBrandProductList", member_no, rows);
@@ -44,7 +44,7 @@ public class BrandDAOImpl implements BrandDAO {
 
 	@Override
 	public int deleteBrandProductList(int productNo) {
-		System.out.println("product_delete :: DAO 왔나요");
+		System.out.println("product_delete :: DAO 왔어요");
 		
 		int resultP = 0;	// 상품 삭제 결과
 		int resultA = 0;	// 첨부파일 삭제 결과
@@ -60,43 +60,43 @@ public class BrandDAOImpl implements BrandDAO {
 
 	@Override
 	public List<MypageOrderList> selectBrandOrderDetail(O_Order tempOrder) {
-		System.out.println("order_detail :: DAO 왔나요");
+		System.out.println("order_detail :: DAO 왔어요");
 		return sqlSession.selectList("orderList-mapper.selectBrandOrderDetail", tempOrder);
 	}
 
 	@Override
 	public int updateBrandInfo(Member tempMember) {
-		System.out.println("brandMypage_UpdatePw :: DAO 왔나요");
+		System.out.println("brandMypage_UpdatePw :: DAO 왔어요");
 		return sqlSession.update("member-mapper.updateBrandPwd", tempMember);
 	}
 	
 	@Override
 	public int emUpdateBrandInfo(Member tempMember) {
-		System.out.println("brandMypage_UpdateEmail :: DAO 왔나요");
+		System.out.println("brandMypage_UpdateEmail :: DAO 왔어요");
 		return sqlSession.update("member-mapper.updateBrandEmail", tempMember);
 	}
 
 	@Override
 	public int phUpdateBrandInfo(Member tempMember) {
-		System.out.println("brandMypage_UpdatePhone :: DAO 왔나요");
+		System.out.println("brandMypage_UpdatePhone :: DAO 왔어요");
 		return sqlSession.update("member-mapper.updateBrandPhone", tempMember);
 	}
 
 	@Override
 	public int acUpdateBrandInfo(Member tempMember) {
-		System.out.println("brandMypage_UpdateAccount :: DAO 왔나요");
+		System.out.println("brandMypage_UpdateAccount :: DAO 왔어요");
 		return sqlSession.update("member-mapper.updateBrandAccount", tempMember);
 	}
 
 	@Override
 	public List<Product> selectBrandProductRankList(int member_no) {
-		System.out.println("rank :: DAO 왔나요");
+		System.out.println("rank :: DAO 왔어요");
 		return sqlSession.selectList("productList-mapper.selectBrandProductRankList", member_no);
 	}
 
 	@Override
 	public int updateBrandStatus(O_Order_List tempOrder) {
-		System.out.println("send :: DAO 왔나요");
+		System.out.println("send :: DAO 왔어요");
 		int result1 = sqlSession.update("orderList-mapper.updateBrandStatus", tempOrder);
 		int result2 = sqlSession.update("orderList-mapper.updateNoBrandStatus", tempOrder);
 		System.out.println("result1" + result1);

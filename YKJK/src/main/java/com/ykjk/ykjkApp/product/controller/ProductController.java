@@ -34,8 +34,8 @@ public class ProductController {
 	// 메인 화면에서 brand 또는 second hand 클릭 시 수행되는 로직.
 	@RequestMapping("/product/productList.do")
 	public String productList(
-			@RequestParam int pType,	// 브랜드 or 중고 구분 
-			@RequestParam( required = false, defaultValue = "0") int categoryNo,	// 선택한 카테고리 값
+			@RequestParam int pType,	// 브랜드 or 중고 구분  1이 브랜드 2가 중고
+			@RequestParam( required = false, defaultValue = "0") int categoryNo,	// 선택한 카테고리 값 top, bottom 등
 			@RequestParam( value = "bName", required = false, defaultValue = "All") String bName, // 선택한 브랜드 이름 
 			@RequestParam( required = false, defaultValue = "") String sortVal, // 선택한 필터 정렬 값 
 			@RequestParam( value = "cPage", required = false, defaultValue = "1") int cPage,
