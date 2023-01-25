@@ -60,6 +60,8 @@ public class OrderController {
 		return "/order/cart";
 	}
 	
+	
+	//장바구니 카트목록 우측 삭제버튼
 	@RequestMapping("/order/deleteCartProduct.or")
 	public String deleteCartProduct(@RequestParam int cart_no) {
 
@@ -132,8 +134,7 @@ public class OrderController {
 		
 		System.out.println(map);
 		
-		int result = orderService.updateQuantity(map);
-				
+		int result = orderService.updateQuantity(map);		
 		if(result>0) {
 			System.out.println("업데이트 완료");
 		} else System.out.println("실패");
@@ -143,7 +144,7 @@ public class OrderController {
 	}
 	
 	
-	// add cartList from product Detail
+	// 상품에서 카트담기 기능
 	@RequestMapping("/order/addCartList.or")
 	@ResponseBody
 	public void addCartList(HttpServletRequest req, 
