@@ -181,7 +181,7 @@ public class OrderController {
 	};
 	
 	
-	// add cartList from SecondHand Product Detail
+	// 중고브랜드 장바구니 담기 벨류 배열? 을 안한 이유는 중고물품은 수량이 1개이기 때문
 		@RequestMapping("/order/addCartListSecondHand.or")
 		@ResponseBody
 		public void addCartListSecondHand(HttpServletRequest req, 
@@ -216,35 +216,8 @@ public class OrderController {
 		
 			
 		};
-
 	
 	
-	
-//  ajax 통신 시도
-//	@RequestMapping("/order/deleteCartProduct.or")
-//	public void deleteCartProduct(
-//			@RequestParam int cart_no, Model model, HttpServletRequest req) {
-//
-//		System.out.println(cart_no + "번 장바구니 데이터 삭제");
-//		
-//		int result = orderService.deleteCartProduct(cart_no);
-//
-//		if(result>0) {
-//			System.out.println("삭제 성공");
-//			cartList(model, req);
-//		} else {
-//			System.out.println("삭제 실패");
-//		}
-//
-//
-//	}
-	
-	// =========== 카트 영역 =============== //
-	
-	
-	
-	
-		
 	// =========== 주문 페이지 영역 =========== //
 	@RequestMapping("/order/order.or")
 	public String selectOrderList(
@@ -270,14 +243,11 @@ public class OrderController {
 		// ---------- 멤버 정보 가져오기 시작 ----------- //
 		HttpSession session = req.getSession();
 		Member member = (Member) session.getAttribute("member");
-
-				
+	
 		// ---------- 멤버 정보 가져오기 끝 ----------- //		
 		
 		model.addAttribute("cart", cart);
 		model.addAttribute("m", member);
-		
-		
 		
 		// 장바구니에서 주문 선택한 품목 불러오기		
 		return "order/order";
@@ -322,7 +292,7 @@ public class OrderController {
 				System.out.println("실패");
 			}
 		
-		// 성 공 했 다 !!!!! //
+		// 성공  //
 		
 
 		// Order_List에 데이터 넣기
@@ -347,7 +317,7 @@ public class OrderController {
 			}
 		}
 		
-		// !!!!!!!!! 성 공 !!!!!!!!! //
+		//  성 공 //
 		
 		
 		// PURCHASE 테이블에 데이터 넣기
@@ -359,7 +329,7 @@ public class OrderController {
 		} else {
 			System.out.println("실패");
 		}
-		// !!!!!!!!! 성 공 !!!!!!!!! //
+		//  성 공  //
 			
 		
 		
@@ -371,7 +341,7 @@ public class OrderController {
 		} else {
 			System.out.println("실패");
 		}
-		// !!!!!!!!! 성 공 !!!!!!!!! //
+		//  성 공  //
 		
 		
 		// 카트 번호 삭제하기
@@ -406,7 +376,6 @@ public class OrderController {
 	
 	
 	// 결제 완료 페이지 영역
-	
 	@RequestMapping("/order/orderResult.or")
 	public String orderResult(Model model, Order order) {
 		
