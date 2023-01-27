@@ -38,11 +38,11 @@
 					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=YKJK&pType=1&categoryNo=0&sortVal=">YKJK</a></li>
 				</ul>
 				<ul class="menu">
-					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=1&pType=3&bName=All&sortVal=">TOP</a></li>
-					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=2&pType=3&bName=All&sortVal=">BOTTOM</a></li>
-					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=3&pType=3&bName=All&sortVal=">SHOES</a></li>
-					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=4&pType=3&bName=All&sortVal=">HAT</a></li>
-					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=5&pType=3&bName=All&sortVal=">BAG</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=1&pType=1&bName=All&sortVal=">TOP</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=2&pType=1&bName=All&sortVal=">BOTTOM</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=3&pType=1&bName=All&sortVal=">SHOES</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=4&pType=1&bName=All&sortVal=">HAT</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=5&pType=1&bName=All&sortVal=">BAG</a></li>
 				</ul>
 				<ul class="menu">
 					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=1&pType=2&sortVal=">TOP</a></li>
@@ -114,13 +114,11 @@
 			});
 		});
 		
-		// Choose 추가 예정
-		(function() {		
+		$(function() {		
 			$('#Choose').on('click', function() {
 				var pType = 1;
 				location.href="${pageContext.request.contextPath}/product/productList.do?pType="+pType;
-				var pType = 2;
-				location.href="${pageContext.request.contextPath}/product/productList.do?pType="+pType;
+				
 			});
 		}); 
 	
