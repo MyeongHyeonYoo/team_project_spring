@@ -9,7 +9,7 @@
 
 	<footer class="footer">
         <div class="wrapper">
-        
+
             <div class="footer_contents">
 
                 <div class="content">
@@ -45,9 +45,4 @@
             </div>
         </div>
     </footer>
-    <script>
-    $("#logo_footer").on("click",function(){
-		location.href = "${pageContext.request.contextPath}/product/ending.do";
-		});
-    </script>
     

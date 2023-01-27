@@ -56,7 +56,9 @@
     - Navigation bar - 'BRNAD', 'CHOOSE', 'USED' 메뉴 확정
         - BRNAD, CHOOSE, USED 상세 메뉴 추가
     - 전체 상품 이미지 변경
-        - 이미지 겹침 또는 상품 분류 확인 필요
+        - 이미지 겹침 또는 상품 분류 확인 필요<br>
+    - 상품 메뉴 이미지        
+    <img src="images/navi_bar.jpg" width="450" height="300">
 
 ---
 
@@ -128,6 +130,18 @@
     - 테스트 준비
 
 ---
+
+#### [TEST_1.0]
+
+◾ **의류 온라인 쇼핑몰** `Version_1.0` TEST 
+- 테스트 1
+    - 일부 버그 수정
+        - 상품 목록 페이지로 잘 안 불러와 지는 현상 수정
+
+
+---
+
+
 
 
 ###### `Notion` : https://www.notion.so/Team-Project3-Spring-5b7960e2e0f44f80a0df241612c2a339

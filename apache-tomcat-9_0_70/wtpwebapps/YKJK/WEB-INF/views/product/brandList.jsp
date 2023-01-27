@@ -120,34 +120,7 @@
                     </c:forEach>
            	 	</div>
 			<c:out value="${pageBar}" escapeXml="false"/>
-			</div>
-			<!-- <ul class='pagination justify-content-center pagination-sm'>
-				<li class='page-item disabled'>
-					<a class='page-link' href='#' tabindex='-1'>이전</a>
-				</li>
-				<li class='page-item'>
-					<a class='page-link' href='javascript:fn_paging("+(pageNo-1)+")'>이전</a>
-				</li>
-				<li class='page-item active'>
-					<a class='page-link'>"+pageNo+"</a>
-				</li>
-				<li class='page-item'>
-					<a class='page-link' href='javascript:fn_paging("+pageNo+")'>"+pageNo+"</a>
-				</li>
-				<li class='page-item disabled'>
-					<a class='page-link' href='#'>다음</a>
-				</li>
-				<li class='page-item'>
-					<a class='page-link' href='javascript:fn_paging("+pageNo+")'>다음</a>
-				</li>
-			</ul>
-			<script>
-	            function fn_paging(cPage,numPerPage){
-	            	location.href='"+url+"?cPage='+cPage;
-	            }
-            </script> -->
-            
-            
+			</div>       
             
         </section>
 	    <!-- TOP 버튼 -->
