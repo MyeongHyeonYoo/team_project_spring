@@ -7,23 +7,11 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-<<<<<<< HEAD:YKJK/src/main/java/com/ykjk/ykjkApp/myPage/senondHand/model/service/SecondHandServiceImpl.java
 import com.ykjk.ykjkApp.member.model.vo.Member;
 import com.ykjk.ykjkApp.myPage.senondHand.model.DAO.SecondHandDAO;
-import com.ykjk.ykjkApp.product.model.vo.Product;
 import com.ykjk.ykjkApp.myPage.senondHand.model.vo.Review_ProductInfo;
-import com.ykjk.ykjkApp.myPage.senondHand.model.vo.myPageOrderList;
 import com.ykjk.ykjkApp.product.model.vo.Attachment;
 import com.ykjk.ykjkApp.product.model.vo.Review;
-=======
-import com.ootd.ootdApp.member.model.vo.Member;
-import com.ootd.ootdApp.myPage.senondHand.model.DAO.SecondHandDAO;
-import com.ootd.ootdApp.myPage.senondHand.model.vo.Review_ProductInfo;
-import com.ootd.ootdApp.myPage.senondHand.model.vo.myPageOrderList;
-import com.ootd.ootdApp.product.model.vo.Attachment;
-import com.ootd.ootdApp.product.model.vo.Product;
-import com.ootd.ootdApp.product.model.vo.Review;
->>>>>>> dev2:YKJK/src/main/java/com/ootd/ootdApp/myPage/senondHand/model/service/SecondHandServiceImpl.java
 
 @Service
 public class SecondHandServiceImpl implements SecondHandService {

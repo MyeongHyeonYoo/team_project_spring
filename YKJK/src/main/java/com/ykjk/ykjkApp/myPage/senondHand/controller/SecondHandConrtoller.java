@@ -2,7 +2,6 @@ package com.ykjk.ykjkApp.myPage.senondHand.controller;
 
 import java.io.File;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -13,32 +12,16 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-<<<<<<< HEAD:YKJK/src/main/java/com/ykjk/ykjkApp/myPage/senondHand/controller/SecondHandConrtoller.java
 import com.ykjk.ykjkApp.common.Utils;
 import com.ykjk.ykjkApp.member.model.vo.Member;
 import com.ykjk.ykjkApp.myPage.senondHand.model.service.SecondHandService;
-import com.ykjk.ykjkApp.myPage.brand.model.vo.O_Order;
-import com.ykjk.ykjkApp.product.model.vo.Product;
 import com.ykjk.ykjkApp.myPage.senondHand.model.vo.Review_ProductInfo;
-import com.ykjk.ykjkApp.myPage.senondHand.model.vo.myPageOrderList;
 import com.ykjk.ykjkApp.product.model.vo.Attachment;
 import com.ykjk.ykjkApp.product.model.vo.Review;
-=======
-import com.ootd.ootdApp.common.Utils;
-import com.ootd.ootdApp.member.model.vo.Member;
-import com.ootd.ootdApp.myPage.brand.model.vo.O_Order;
-import com.ootd.ootdApp.myPage.senondHand.model.service.SecondHandService;
-import com.ootd.ootdApp.myPage.senondHand.model.vo.Review_ProductInfo;
-import com.ootd.ootdApp.myPage.senondHand.model.vo.myPageOrderList;
-import com.ootd.ootdApp.product.model.vo.Attachment;
-import com.ootd.ootdApp.product.model.vo.Product;
-import com.ootd.ootdApp.product.model.vo.Review;
->>>>>>> dev2:YKJK/src/main/java/com/ootd/ootdApp/myPage/senondHand/controller/SecondHandConrtoller.java
 
 @SessionAttributes({ "member" })
 @Controller

@@ -47,7 +47,7 @@
         <div id="content">
             <input type="checkbox" id="brand" style="display:none;" name="login_type" value="1" onclick="return false;">
             <input type="checkbox" id="member" style="display:none;" name="login_type" value="2" checked="checked">
-            <span style="float:right;">Required</span><span style="color: red; float:right;">*</span>
+            <span style="float:right;">필수 입력 사항입니다.</span><span style="color: red; float:right;">*</span>
 			
 			<c:if test="${ ! empty member_id }">
 			

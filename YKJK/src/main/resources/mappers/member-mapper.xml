@@ -92,9 +92,6 @@
 	
 	<!-- 다인 끝 -->
 	
-	
-	
-	
 	<!-- 건형 시작 -->
 	<!-- 회원정보 수정 -->
 	<update id="updatePassword" parameterType="Member">

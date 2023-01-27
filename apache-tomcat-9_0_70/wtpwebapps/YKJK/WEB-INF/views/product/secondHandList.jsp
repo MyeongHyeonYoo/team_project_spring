@@ -4,7 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-<%@ page import="com.ootd.ootdApp.product.model.vo.*" %>
+<%@ page import="com.ykjk.ykjkApp.product.model.vo.*" %>
 <% Product pr = (Product)request.getAttribute("product"); // product(카테고리, 브랜드네임) 받아오기 %>
 <!DOCTYPE html>
 <html>
@@ -48,12 +48,12 @@
                         <!-- 보여줄 영역 -->
                         <div class="dropArea">
                             <ul class="hiddenArea" id="categoryList">
-                                <li class="prod cate" id="0">All</li>
-                                <li class="prod cate" id="1">Top</li>
-                                <li class="prod cate" id="2">bottom</li>
-                                <li class="prod cate" id="3">Shoes</li>
-                                <li class="prod cate" id="4">Hat</li>
-                                <li class="prod cate" id="5">Bag</li>
+                                <li class="prod cate" id="0">ALL</li>
+                                <li class="prod cate" id="1">TOP</li>
+                                <li class="prod cate" id="2">BOTTOM</li>
+                                <li class="prod cate" id="3">SHOES</li>
+                                <li class="prod cate" id="4">HAT</li>
+                                <li class="prod cate" id="5">BAG</li>
                             </ul>
                         </div> 
                     </li>

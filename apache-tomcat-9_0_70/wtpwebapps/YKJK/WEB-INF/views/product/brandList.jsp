@@ -4,7 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-<%@ page import="com.ootd.ootdApp.product.model.vo.*" %>
+<%@ page import="com.ykjk.ykjkApp.product.model.vo.*" %>
 <% Product pr = (Product)request.getAttribute("product"); // product(카테고리, 브랜드네임) 받아오기 %>
 <!DOCTYPE html>
 <html>
@@ -48,11 +48,11 @@
                         <div class="dropArea">
                             <ul class="hiddenArea" id="categoryList">
                                 <li class="prod cate" id="0"><span>All</span></li>
-                                <li class="prod cate" id="1"><span>Top</span></li>
-                                <li class="prod cate" id="2"><span>bottom</span></li>
-                                <li class="prod cate" id="3"><span>Shoes</span></li>
-                                <li class="prod cate" id="4"><span>Hat</span></li>
-                                <li class="prod cate" id="5"><span>Bag</span></li>
+                                <li class="prod cate" id="1"><span>TOP</span></li>
+                                <li class="prod cate" id="2"><span>BOTTOM</span></li>
+                                <li class="prod cate" id="3"><span>SHOES</span></li>
+                                <li class="prod cate" id="4"><span>HAT</span></li>
+                                <li class="prod cate" id="5"><span>BAG</span></li>
                             </ul>
                         </div> 
                     </li>
@@ -197,7 +197,6 @@
 				}   */
 				
 			});
-	 		
 	 		
 	 		// 브랜드 클릭시 id 값을 가지고 selectList 로 이동 
 	 		$('#brandList').children('.brand').on("click",function(){

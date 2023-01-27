@@ -287,8 +287,7 @@ input.underline {
 }
 
 html.dark .btn {
-	color: #bbb;
-
+	color: white;
 }
 
 
@@ -301,6 +300,6 @@ html.dark .btn {
 }	
 
 html.dark .btn:hover {
-	color: black;
+	color: white;
 
 }

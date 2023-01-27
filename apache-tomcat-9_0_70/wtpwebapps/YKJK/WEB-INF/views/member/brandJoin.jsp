@@ -37,7 +37,7 @@
         <div id="content">
             <input type="checkbox" id="brand" style="display:none;" name="login_type" value="1" checked="checked">
             <input type="checkbox" id="member" style="display:none;" name="login_type" value="2" onclick="return false;">
-            <span style="float:right;">Required</span><span style="color: red; float:right;">*</span>
+            <span style="float:right;">필수 입력 사항입니다.</span><span style="color: red; float:right;">*</span>
 
             <!-- ID -->
             <div>

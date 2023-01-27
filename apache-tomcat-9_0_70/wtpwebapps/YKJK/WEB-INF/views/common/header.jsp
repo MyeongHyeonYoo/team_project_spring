@@ -19,37 +19,42 @@
 		<!-- Header Brand, Second Hands (클릭 시 하단에 메뉴바) -->
 		<div class="header_menu">
 			<div>
-				<h3 id="brand">Brand</h3>
+				<h3 id="brand">BRAND</h3>
 			</div>
 			<div>
-				<h3 id="Choose">Choose</h3>
+				<h3 id="Choose">CHOOSE</h3>
 			</div>
 			<div>
-				<h3 id="second_Hand">Other</h3>
+				<h3 id="used">USED</h3>
 			</div>
 			<div id="navi_menu">
-				<ol class="menu">
-					<li class="slide">GUCCI</li>
-					<li class="slide">PRADA</li>
-					<li class="slide">CHANEL</li>
-					<li class="slide">MONCLER</li>
-					<li class="slide">Burberry</li>
-				</ol>
-				<ol class="menu">
-					<li class="slide">Top</li>
-					<li class="slide">Bottom</li>
-					<li class="slide">Shoes</li>
-					<li class="slide">Hat</li>
-					<li class="slide">Bag</li>
-				</ol>
-				<ol class="menu">
-					<li class="slide">A</li>
-					<li class="slide">B</li>
-					<li class="slide">C</li>
-					<li class="slide">D</li>
-				</ol>
+				<ul class="menu">
+					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=YOU명&pType=1&categoryNo=0&sortVal=">YOU명</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=에이치준&pType=1&categoryNo=0&sortVal=">에이치준</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=JI&pType=1&categoryNo=0&sortVal=">JI</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=제이현&pType=1&categoryNo=0&sortVal=">제이현</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=YK&pType=1&categoryNo=0&sortVal=">YK</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=JK&pType=1&categoryNo=0&sortVal=">JK</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?bName=YKJK&pType=1&categoryNo=0&sortVal=">YKJK</a></li>
+				</ul>
+				<ul class="menu">
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=1&pType=1&bName=All&sortVal=">TOP</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=2&pType=1&bName=All&sortVal=">BOTTOM</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=3&pType=1&bName=All&sortVal=">SHOES</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=4&pType=1&bName=All&sortVal=">HAT</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=5&pType=1&bName=All&sortVal=">BAG</a></li>
+				</ul>
+				<ul class="menu">
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=1&pType=2&sortVal=">TOP</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=2&pType=2&sortVal=">BOTTOM</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=3&pType=2&sortVal=">SHOES</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=4&pType=2&sortVal=">HAT</a></li>
+					<li class="slide"><a href="/ykjkApp/product/productList.do?categoryNo=5&pType=2&sortVal=">BAG</a></li>
+				</ul>
 			</div>
 		</div>
+
+
 
 		<!-- 검색창, 장바구니, 마이페이지, 다크모드 -->
 		<div class="header_option">
@@ -102,7 +107,7 @@
 		});
 		
 		$(function() {		
-			$('#second_Hand').on('click', function() {
+			$('#used').on('click', function() {
 				
 				var pType = 2;
 				location.href="${pageContext.request.contextPath}/product/productList.do?pType="+pType;
@@ -111,7 +116,7 @@
 		
 		// Choose 추가 예정
 		/* (function() {		
-			$('#second_Hand').on('click', function() {
+			$('#used').on('click', function() {
 				
 				var pType = 3;
 				location.href="${pageContext.request.contextPath}/product/productList.do?pType="+pType;

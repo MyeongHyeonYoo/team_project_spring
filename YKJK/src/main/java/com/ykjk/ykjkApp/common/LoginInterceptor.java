@@ -1,9 +1,4 @@
-<<<<<<< HEAD:YKJK/src/main/java/com/ykjk/ykjkApp/common/LoginInterceptor.java
-package com.ykjk.ykjkApp.common;
-=======
-package com.ootd.ootdApp.common;
->>>>>>> dev2:YKJK/src/main/java/com/ootd/ootdApp/common/LoginInterceptor.java
-//package com.ootd.ykjkApp.common;
+//package com.ykjk.ykjkApp.common;
 //
 //import javax.servlet.http.HttpServletRequest;
 //import javax.servlet.http.HttpServletResponse;
