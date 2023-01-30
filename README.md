@@ -150,14 +150,42 @@
     - 최종 테스트 완료
 
 ---
+---
+#### [Release 1.0]
 
+◾ **`Release1.0`**
 
+### ◾ main
+<img src="images/main.jpg" width="600" height="350">
+<img src="images/main2.jpg" width="600" height="350">
+
+### ◾ clothes menu
+<img src="images/cmenu.jpg" width="600" height="350">
+<img src="images/cmenu2.jpg" width="600" height="350">
+<img src="images/cmenu3.jpg" width="600" height="350">
+
+### ◾ clothes details
+<img src="images/cpage.jpg" width="600" height="350">
+
+### ◾ cart
+<img src="images/cart.jpg" width="600" height="350">
+<img src="images/cart2.png" width="600" height="350">
+
+### ◾ payment
+<img src="images/start_payment.png" width="600" height="350">
+<img src="images/payment.png" width="400" height="250">
+
+### ◾ dark mode
+<img src="images/dark.jpg" width="600" height="350">
+
+<br>
+
+<img src="images/cvedio.gif" width="400" height="250">
 
 ###### `Notion` : https://www.notion.so/Team-Project3-Spring-5b7960e2e0f44f80a0df241612c2a339
 
-
 ```
-(메모란)
+
 
 ```
 
